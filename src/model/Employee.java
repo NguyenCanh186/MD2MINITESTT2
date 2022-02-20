@@ -74,12 +74,12 @@ public abstract class Employee {
         email = scanner.nextLine();
     }
     public String toString(){
-        return "ma nhan vien: " + this.id
-                + ", ho va ten "
+        return "Mã nhân viên: " + this.id
+                + ", họ và tên "
                 + this.fullName
-                + ", tuoi: "
+                + ", tuổi: "
                 + this.age
-                + ", so dien thoai "
+                + ", số điện thoại: "
                 + this.phoneNumber;
     }
 }
